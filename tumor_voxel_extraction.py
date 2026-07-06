@@ -345,9 +345,10 @@ def demo_tumor_extraction():
     """Demonstrate tumor voxel extraction and analysis"""
     
     # Initialize extractor
+    # Physics Informed modalities will be added soon.
     # extractor = TumorVoxelExtractor(
-    #     cbct_folder="path/to/cbct/folder",
-    #     rtstruct_file="path/to/structure.dcm"
+    #     cbct_folder="Physics-informed Code/QML/cbct/folder",
+    #     rtstruct_file="Physics-informed Code/QML/structure.dcm"
     # )
     
     # Find available ROIs
